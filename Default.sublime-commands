@@ -1,0 +1,7 @@
+[
+
+    { "caption": "Khan: Add Ruler", "command": "khan", "args": {"action": "add"}},
+    { "caption": "Khan: Clear Rulers", "command": "khan", "args": {"action": "clear"}},
+    { "caption": "Khan: Remove Ruler", "command": "khan", "args": {"action": "remove"}},
+
+]
