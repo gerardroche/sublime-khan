@@ -1,6 +1,26 @@
 # Khan
 
-Add, remove, and clear rulers at the current cursor column using the command palette.
+Add, remove, and clear rulers at the current cursor using the command palette.
+
+## Usage
+
+**Add a ruler**
+
+Put your cursor at the column where you want a ruler and run "Add Ruler" from the command palette.
+
+Command Palette → Khan: Add Ruler
+
+**Remove a ruler**
+
+Put your cursor at the ruler you want to remove and run "Remove Ruler" from the command palette.
+
+Command Palette → Khan: Remove Ruler
+
+**Clear rulers**
+
+Run "Clear Rulers" from the command palette.
+
+Command Palette → Khan: Clear Rulers
 
 ## Installation
 
