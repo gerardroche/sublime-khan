@@ -24,21 +24,33 @@ Command Palette → Khan: Clear Rulers
 
 ## Installation
 
-### Manual installation
+**Method 1: Using Package Control**
 
-Close Sublime Text, then download or clone this repository to a directory named **Khan** in the Sublime Text Packages directory for your platform:
+1. Open Sublime Text.
+2. Access the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+3. Type "Package Control: Install Package" and press `Enter`.
+4. In the input field, type "Khan" and select it from the list of available packages.
 
-**Linux**
+**Method 2: Manual Installation**
 
-`git clone https://https://github.com/gerardroche/sublime-khan.git ~/.config/sublime-text-3/Packages/Khan`
+1. Visit the [Khan GitHub repository](https://github.com/gerardroche/sublime-khan).
+2. Click on the "Code" button and choose "Download ZIP."
+3. Unzip the downloaded file.
+4. In Sublime Text, navigate to `Preferences -> Browse Packages...` to access the Packages folder.
+5. Copy the "Khan" folder from the unzipped archive and paste it into the Packages folder.
 
-**OSX**
+**Method 3: Manual Git Repository Installation**
 
-`git clone https://https://github.com/gerardroche/sublime-khan.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Khan`
+1. Open a terminal or command prompt.
+2. Go to the Sublime Text Packages directory based on your operating system:
+   - Windows: `%APPDATA%\Sublime Text\Packages`
+   - macOS: `~/Library/Application Support/Sublime Text/Packages`
+   - Linux: `~/.config/sublime-text/Packages`
+3. Clone the Khan plugin repository directly into the Packages directory using Git:
 
-**Windows**
-
-`git clone https://https://github.com/gerardroche/sublime-khan.git %APPDATA%\Sublime/ Text/ 3/Packages/Khan`
+   ```bash
+   git clone https://github.com/gerardroche/sublime-khan.git Khan
+   ```
 
 ## Commands
 
