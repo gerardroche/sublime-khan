@@ -63,3 +63,7 @@ Khan: Remote Ruler  | Remove the ruler at the current column
 ## License
 
 Released under the [GPL-3.0-or-later License](LICENSE).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
